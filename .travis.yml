@@ -1,0 +1,14 @@
+language: ruby
+
+dist: trusty
+
+rvm:
+  - 2.4.0
+
+gemfile:
+  - Gemfile
+
+cache: bundler
+
+script:
+  - bundle exec rake test
